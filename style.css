@@ -136,7 +136,7 @@ body {
 }
 
 @keyframes download {
-	from {
+	from, to {
 		top: 0;
 	}
 	50% {
@@ -144,9 +144,6 @@ body {
 	}
 	51% {
 		top: -2em;
-	}
-	to {
-		top: 0;
 	}
 }
 
